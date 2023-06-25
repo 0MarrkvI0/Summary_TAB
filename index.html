@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Outfit:wght@400;700&display=swap');
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+
+        .txt {
+            width: 300px;
+            margin-top: 0;
+        }
+
+        @media(min-width:700px) {
+            .txt {
+                width: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="screen">
+        <main class="top">
+            <h2>Your Result</h2>
+            <div class="score">
+                <h1>76</h1>
+                <p>of 100</p>
+            </div>
+
+            <h1 style="margin-bottom:0.5em;">Great</h1>
+
+            <p class="txt"> You scored higher than 65% of the people who have taken these tests.</p>
+
+        </main>
+        <div class="summary">
+            <h2>Summary</h2>
+
+            <div class="item reaction">
+                <div class="name">
+                    <a><img src="./assets/images/icon-reaction.svg" /></a>
+                    <h3>Reaction</h3>
+                </div>
+                <div class="hash">
+                    <p class="num">80</p>
+                    <p class="hun">/ 100</p>
+                </div>
+            </div>
+
+            <div class="item memory">
+                <div class="name">
+                    <a><img src="./assets/images/icon-memory.svg" /></a>
+                    <h3>Memory</h3>
+                </div>
+                <div class="hash">
+                    <p class="num">92</p>
+                    <p class="hun">/ 100</p>
+                </div>
+            </div>
+            <div class="item verbal">
+                <div class="name">
+                    <a><img src="./assets/images/icon-verbal.svg" /></a>
+                    <h3>Verbal</h3>
+                </div>
+                <div class="hash">
+                    <p class="num">61</p>
+                    <p class="hun">/ 100</p>
+                </div>
+
+            </div>
+            <div class="item visual">
+                <div class="name">
+                    <a><img src="./assets/images/icon-visual.svg" /></a>
+                    <h3>Visual</h3>
+                </div>
+                <div class="hash">
+                    <p class="num">72</p>
+                    <p class="hun">/ 100</p>
+                </div>
+            </div>
+            <div>
+                <button class="btn" id="continue">Continue</button>
+            </div>
+
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">Markvi</a>.
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
